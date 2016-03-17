@@ -1,10 +1,16 @@
-pglogfebe (1.0-1ubuntu2) precise; urgency=medium
+pglogfebe (1.0-1heroku3) precise; urgency=medium
+
+  * Bump to fix missing so files
+
+ -- Greg Burek <gregburek@heroku.com>  Thu, 17 Mar 2016 22:53:35 +0000
+
+pglogfebe (1.0-1heroku2) precise; urgency=medium
 
   * New release for packages with 9.5 support.
 
  -- Greg Burek <gregburek@heroku.com>  Wed, 16 Mar 2016 17:57:06 +0000
 
-pglogfebe (1.0-1ubuntu1) precise; urgency=medium
+pglogfebe (1.0-1heroku1) precise; urgency=medium
 
   * Initial release
 
