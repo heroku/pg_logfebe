@@ -3,11 +3,10 @@ long_ver = $(shell (git describe --tags --long '--match=v*' 2>/dev/null || echo 
 
 MODULE_big = pg_logfebe
 OBJS = pg_logfebe.o
-
-EXTENSION = pg_logfebe
+DOCS       = README.rst
 
 PG_CONFIG = pg_config
-PGXS := $(shell $(PG_CONFIG) --pgxs)
+PGXS = $(shell $(PG_CONFIG) --pgxs)
 include $(PGXS)
 
 DEBUILD_ROOT = /tmp/pg_logfebe
